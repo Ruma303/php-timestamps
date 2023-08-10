@@ -47,14 +47,14 @@ echo '</pre><br>'; */
 
 
 //$ checkdate()
-if (checkdate(12, 31, 2000)) {
+/* if (checkdate(12, 31, 2000)) {
     echo 'Data valida.';
 } else {
     echo 'Data non valida.';
 }
-
+ */
 
 //$ date_create() + date_format()
 /* $date = date_create("2013-03-15");
-echo date_format($date, "Y/m/d H:i:s"); */
+echo date_format($date, "d/m/Y H:m:s"); */
 // 2013/03/15 00:00:00
