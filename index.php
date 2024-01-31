@@ -1,32 +1,32 @@
 <?php
 
-//$ time()
+//, time()
 /* $now = time();
-echo $now; // 1691487384 */
+echo $now; // 1706712705 */
 
 
-//$ mktime(hour, minute, second, month, day, year)
+//, mktime(hour, minute, second, month, day, year)
 /* $ts1 = mktime(7, 10, 32, 12, 31, 1997);
 echo $ts1 . '<br>'; // 883552232
 $ts2 = mktime(0, 0, 0, 12, 31, 1999);
 echo $ts2 ; // 946598400 */
 
 
-//$ strtotime(string, [timestamp])
+//, strtotime(string, [timestamp])
 /* $ts1 = strtotime("tomorrow");
 echo $ts1 . '<br>'; // 1691539200
 $ts2 = strtotime("+1 week 2 days 4 hours", $ts1);
 echo $ts2; // 1692331200 */
 
 
-//$ date(format, [timestamp])
-/* $date1 = date("d/m/y");
-echo $date1 . '<br>'; // 08/08/23
+//, date(format, [timestamp])
+/* $date1 = date("d/m/Y");
+echo $date1 . '<br>'; // 31/01/24
 $date2 = date("Y-m-d H:i:s", 1691539200);
 echo $date2; // 2023-08-09 00:00:00 */
 
 
-//$ getdate([timestamp])
+//, getdate([timestamp])
 /* $ts = mktime(0, 0, 5, 4, 28, 2049);
 echo '<pre>';
 $date1 = getdate($ts);
@@ -46,15 +46,15 @@ print_r($date2);
 echo '</pre><br>'; */
 
 
-//$ checkdate()
+//, checkdate()
 /* if (checkdate(12, 31, 2000)) {
     echo 'Data valida.';
 } else {
     echo 'Data non valida.';
-}
- */
+} */
 
-//$ date_create() + date_format()
+
+//, date_create() + date_format()
 /* $date = date_create("2013-03-15");
-echo date_format($date, "d/m/Y H:m:s"); */
+echo date_format($date, "d/F/Y H:m:s"); */
 // 2013/03/15 00:00:00
